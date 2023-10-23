@@ -1,0 +1,39 @@
+.main-host-layout {
+    height: calc(100% - 185px);
+}
+
+.host-vans-container {
+    height: calc(100% - 96px);
+}
+
+.host-navbar {
+    display: flex;
+    gap: 29px;
+    padding-left: 26px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.host-navbar a {
+    color: var(--clr-gray);
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.host-navbar a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.host-navbar a.host-active {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: var(--clr-dark-black);
+    font-weight: 700;
+}
+
+
+
+
+

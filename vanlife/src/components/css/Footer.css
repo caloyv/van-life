@@ -1,0 +1,12 @@
+footer {
+    height: 74px;
+    width: 100%;
+    background-color: var(--clr-mid-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--clr-light-gray);
+}
